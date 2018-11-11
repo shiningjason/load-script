@@ -17,7 +17,7 @@ describe('loadScript', () => {
 
   beforeEach(() => {
     global.document.body.innerHTML = '<script></script>'
-    loadScript = reRequire('./')
+    loadScript = reRequire('./index').default
   })
 
   it('should return promise', () => {

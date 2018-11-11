@@ -1,6 +1,6 @@
 {
   "name": "@shinin/load-script",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Load script asynchronously.",
   "main": "dist/load-script.cjs.js",
   "module": "dist/load-script.esm.js",
