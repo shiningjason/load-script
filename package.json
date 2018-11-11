@@ -1,0 +1,62 @@
+{
+  "name": "@shinin/load-script",
+  "version": "1.0.0",
+  "description": "Load script asynchronously.",
+  "main": "dist/load-script.cjs.js",
+  "module": "dist/load-script.esm.js",
+  "browser": "dist/load-script.min.js",
+  "repository": "https://github.com/shiningjason/load-script",
+  "author": "Jason Chung <shiningjason1989@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "browser",
+    "script",
+    "load",
+    "load-js",
+    "async",
+    "promise"
+  ],
+  "scripts": {
+    "format": "prettier --single-quote --no-semi --write *.js",
+    "lint": "eslint *.js",
+    "build": "rollup --config",
+    "test": "NODE_ENV=test mocha test --require @babel/register"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/register": "^7.0.0",
+    "eslint": "^5.8.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jsdom": "^13.0.0",
+    "mocha": "^5.2.0",
+    "prettier": "^1.15.1",
+    "rollup": "^0.67.0",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-uglify": "^6.0.0"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "presets": [
+          "@babel/env"
+        ]
+      }
+    }
+  },
+  "eslintConfig": {
+    "extends": [
+      "standard",
+      "prettier",
+      "prettier/standard"
+    ]
+  }
+}
