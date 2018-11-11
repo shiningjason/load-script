@@ -31,8 +31,8 @@ Also you can use `@shinin/load-script` as a `<script>` tag from a [CDN](https://
 - Chrome
 - Firefox
 - Safari 7.1+
-- Safari 5.1+ (Use [promises-polyfill](https://github.com/taylorhakes/promise-polyfill))
-- IE 8+ (Use [promises-polyfill](https://github.com/taylorhakes/promise-polyfill))
+- Safari 5.1+ (with [promises-polyfill](https://github.com/taylorhakes/promise-polyfill))
+- IE 8+ (with [promises-polyfill](https://github.com/taylorhakes/promise-polyfill))
 
 ## License
 
