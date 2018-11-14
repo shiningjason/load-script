@@ -18,12 +18,12 @@ export default async function loadSDK() {
 npm install @shinin/load-script --save
 ```
 
-Also you can use `@shinin/load-script` as a `<script>` tag from a [CDN](https://unpkg.com/@shinin/load-script).
+Also you can use `@shinin/load-script` as a `<script>` tag from a [CDN](https://unpkg.com/@shinin/load-script/dist/load-script.min.js).
 
 ```html
 <!-- Use promise-polyfill only if you want to support old browsers. -->
 <!-- <script src="https://unpkg.com/promise-polyfill"></script> -->
-<script src="https://unpkg.com/@shinin/load-script"></script>
+<script src="https://unpkg.com/@shinin/load-script/dist/load-script.min.js"></script>
 ```
 
 ## Browser Support
