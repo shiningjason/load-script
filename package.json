@@ -1,6 +1,6 @@
 {
   "name": "@shinin/load-script",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Load script asynchronously.",
   "main": "dist/load-script.cjs.js",
   "repository": "https://github.com/shiningjason/load-script",
